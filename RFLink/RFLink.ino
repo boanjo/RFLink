@@ -29,6 +29,8 @@
 #if (defined(__AVR_ATmega328P__) || defined(__AVR_ATmega2560__))
 #include <avr/power.h>
 #endif
+
+#define SERIAL_ENABLED
 //****************************************************************************************************************************************
 void sendMsg(); // See at bottom
 
